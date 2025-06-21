@@ -1,11 +1,12 @@
-- 👋 Hi, I’m @uzairsaeedi
-- 👀 I’m interested in Software Development.
-- 🌱 I’m currently learning React JS, ASP .Net MVC.
-- 💞️ I’m looking to collaborate on Software Development
-- 📫 How to reach me : https://www.linkedin.com/in/muhammad-uzair-saeedi-41352913a
+### 👋 Hi there, I'm Muhammad Uzair Saeedi
+
+I'm a final-year Bachelor of Science in Computer Science student passionate about **Software Development**, with hands-on experience in **Mobile App Development**, **Full-Stack Web Development**, and **DevOps** practices.
+
+- 👨‍💻 Currently working as a **React Native Developer Intern at FameWheels**
+- ⚙️ Skilled in **Android Application (Java)**, **React Native**, **Firebase** and **AWS**
+- 🤝 Open to collaboration on impactful software development projects
+- 📫 Reach me on Linkedin: https://www.linkedin.com/in/muhammad-uzair-saeedi
+- 🌐 Portfolio: https://uzairsaeedi.live/
 - 😄 Pronouns: he/his/him
 
-<!---
-uzairsaeedi/uzairsaeedi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Let's build something amazing together!
