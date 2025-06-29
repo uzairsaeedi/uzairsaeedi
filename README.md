@@ -77,6 +77,11 @@
 ## 📬 Let’s Connect!
 
 <p align="center">
+  <a href="https://uzairsaeedi.live">
+    <img src="https://img.shields.io/badge/Portfolio-uzairsaeedi.live-663399?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio Badge" />
+  </a>
+  <br/>
+  <a href="https://linkedin.com/in/muhammad-uzair-saeedi-41352913a/">
   <a href="https://linkedin.com/in/muhammad-uzair-saeedi-41352913a/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
