@@ -77,7 +77,9 @@
 ## 📬 Let’s Connect!
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Portfolio-uzairsaeedi.live-663399?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  <a href="https://uzairsaeedi.live/">
+    <img src="https://img.shields.io/badge/Portfolio-uzairsaeedi.live-663399?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
   <a href="https://linkedin.com/in/muhammad-uzair-saeedi">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
