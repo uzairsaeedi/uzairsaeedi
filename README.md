@@ -50,22 +50,22 @@
 
 - 🖥️ **Web Application performing CRUD Operations** (Spring Boot & Angular) _Jul 2024 – Present_
   - Developed full-stack web app with Spring Boot backend & Angular frontend
-  - Implemented secure RESTful APIs with JWT authentication fileciteturn1file0
+  - Implemented secure RESTful APIs with JWT authentication.
 
 - 🍽️ **Restaurant Management System** (C#, .NET, Windows Forms) _Jun 2024 – Present_
   - Desktop app with admin/employee roles, table reservations, menu updates
-  - Integrated SQL Server for reliable data storage fileciteturn1file0
+  - Integrated SQL Server for reliable data storage.
 
 - 🚗 **Car Rental Mobile Application** (Java & Firebase) _May 2024 – Present_
   - Android app for car rentals; admin/user roles for fleet management & bookings
-  - Firebase Authentication & real-time database sync fileciteturn1file0
+  - Firebase Authentication & real-time database sync.
 
 - 💬 **Chatting Mobile Application** (React Native & Firebase) _Jan 2025 – Present_
-  - Real-time chat app with Firestore, secure auth, responsive UI for Android/iOS fileciteturn1file0
+  - Real-time chat app with Firestore, secure auth, responsive UI for Android/iOS.
 
 - ☁️ **DevOps Automation & Cloud Infrastructure** _Dec 2024 – Present_
   - CI/CD pipelines with Jenkins; containerized microservices on AWS (EC2, ELB, Auto Scaling, RDS)
-  - Configured VPC peering for secure cross-region communication fileciteturn1file0
+  - Configured VPC peering for secure cross-region communication.
 
 ---
 
