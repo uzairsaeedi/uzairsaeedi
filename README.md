@@ -1,75 +1,57 @@
-<!--
-README for Muhammad Uzair Saeedi
--->
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=uzairsaeedi&style=flat-square&color=blue" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Role-Mobile%20Application%20Developer-blue" alt="Role Badge" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-green" alt="Opportunities Badge" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&center=true&width=600&lines=Hi+I'm+Muhammad+Uzair+Saeedi;Mobile+Application+Developer;Open+to+Opportunities" alt="Typing SVG" />
 </p>
 
-## 🧠 About Me
+## 🛠️ Tech Stack & Tools
 
-- 🎓 Final-year **BSc in Computer Science** at **Muhammad Ali Jinnah University**
-- 📱 Mobile Application Developer specializing in **React Native** & **native Android (Java)**
-- 🎨 Proficient in **UI/UX design**, **RESTful APIs**, and **database integration**
-- 🔧 Experienced with **DevOps practices** (Docker, Jenkins) and **CI/CD pipelines**
-- ☁️ Familiar with **AWS services** (EC2, S3, RDS) and cloud networking (VPC)
-
----
-
-## 🛠️ Tech Stack
-
-| Languages            | Frameworks & Libraries | Databases      | DevOps & Tools    |
-| :--------------------| :----------------------| :------------- | :---------------- |
-| Java, JavaScript     | React Native, Next.js  | MySQL, MongoDB | Docker, Jenkins   |
-| TypeScript, C#, C++  | React.js, Express.js   | Firebase       | AWS (EC2, S3, RDS)|
-| Python               | Angular, Expo CLI      |                | Git, GitHub       |
-
----
-
-## 🚀 Projects
-
-### Web CRUD App (Spring Boot & Angular)
-**Jul 2024 – Present** | [Repo](https://github.com/uzairsaeedi/angular-spring-boot-project)
-- Full-stack REST API and UI for CRUD operations with JWT-based authentication
-
-### Restaurant Management System
-**Jun 2024 – Present** | [Repo](https://github.com/uzairsaeedi/Restaurant-Management-System-in-C-Desktop-Application-.)
-- Windows Forms app with admin/employee roles, table reservations, menu updates, and SQL Server integration
-
-### Car Rental Mobile App (Java & Firebase)
-**May 2024 – Present** | [Repo](https://github.com/uzairsaeedi/Rent_Ease)
-- Android app enabling admins to manage fleet and users to browse/book cars with real-time DB sync
-
-### Chatting Mobile App (React Native & Firebase)
-**Jan 2025 – Present**
-- Cross-platform chat application using Firestore, secure authentication, and responsive UI for Android/iOS
-
-### DevOps Automation & Cloud Infrastructure
-**Dec 2024 – Present**
-- Implemented CI/CD pipelines with Jenkins; managed container deployment on AWS with EC2, ELB, and Auto Scaling
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
 
 ---
 
-## 📜 Certifications
+## 🚀 My Projects
 
-- Android App Development
-- Jira Fundamentals
-- Docker Essentials
-- Node.js & GitHub Workflow
-- Scrum Foundation (SFPC)
-- HTML & CSS Fundamentals
-- React.js Basics
-- Project Management Essentials
-- SQL for Data Science
+- 🌐 **IntelliWriter.io**: AI-powered suite — image generation, article writing, scholar chat, abstract creation & more
+- 📊 **AI Tools Dashboard**: Generate FAQs, About Us content, product descriptions, academic resources
+- 📺 **Screen Tracker**: .NET + Node.js Windows app tracking screen time, screenshots, app usage & idle detection
 
 ---
 
-## 📬 Connect with Me
+## 📚 Certifications
 
-- 🌐 Portfolio: [uzairsaeedi.live](https://uzairsaeedi.live)
-- 💼 LinkedIn: [Muhammad Uzair Saeedi](https://www.linkedin.com/in/muhammad-uzair-saeedi)
-- 🐙 GitHub: [uzairsaeedi](https://github.com/uzairsaeedi)
-- ✉️ Email: uzairsaeedi627@gmail.com
+- ✔️ Git & GitHub – Coursera
+- ✔️ Node.js & Express – FreeCodeCamp
+- ✔️ MongoDB & SQL – HackerRank
+- ✔️ REST APIs & Authentication – Udemy
 
+---
+
+## 📬 Let’s Connect!
+
+<p align="center">
+  <a href="https://linkedin.com/in/muhammad-uzair-saeedi-41352913a/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/uzairsaeedi">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:uzairsaeedi627@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
