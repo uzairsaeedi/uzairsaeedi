@@ -76,7 +76,6 @@
 
 ## 📬 Let’s Connect!
 
-<p align="center">
   <a href="https://uzairsaeedi.live">
     <img src="https://img.shields.io/badge/Portfolio-uzairsaeedi.live-663399?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio Badge" />
   </a>
@@ -87,4 +86,3 @@
   <a href="mailto:uzairsaeedi627@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-</p>
