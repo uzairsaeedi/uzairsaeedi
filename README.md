@@ -12,6 +12,16 @@
 
 ---
 
+## ⚙️ GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=uzairsaeedi&theme=dark&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
 ## 🛠️ Tech Stack & Tools
 
 <p align="center">
