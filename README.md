@@ -77,16 +77,21 @@
 ## 📬 Let’s Connect!
 
 <p align="center">
-  <a href="https://uzairsaeedi.live" title="Portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-uzairsaeedi.live-663399?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  <!-- Portfolio as styled button -->
+  <a href="https://uzairsaeedi.live" title="Portfolio" style="text-decoration:none;">
+    <button style="background-color:#663399;color:white;border:none;padding:8px 16px;border-radius:5px;font-size:14px;cursor:pointer;">
+      🌐 Visit My Portfolio
+    </button>
   </a>
-  <a href="https://linkedin.com/in/muhammad-uzair-saeedi-41352913a/" title="LinkedIn">
+  &nbsp;
+  <!-- Other badges with no underline and spacing -->
+  <a href="https://linkedin.com/in/muhammad-uzair-saeedi-41352913a/" title="LinkedIn" style="text-decoration:none;margin:0 8px;">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/uzairsaeedi" title="GitHub">
+  <a href="https://github.com/uzairsaeedi" title="GitHub" style="text-decoration:none;margin:0 8px;">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="mailto:uzairsaeedi627@gmail.com" title="Email">
+  <a href="mailto:uzairsaeedi627@gmail.com" title="Email" style="text-decoration:none;margin:0 8px;">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
