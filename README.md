@@ -61,16 +61,16 @@
 
 ## 📚 Certifications
 
-- 🏅 Android Application Development fileciteturn2file0
-- 🏅 Jira Fundamentals fileciteturn2file0
-- 🏅 Docker Training Course fileciteturn2file0
-- 🏅 Node.js fileciteturn2file0
-- 🏅 Git & GitHub fileciteturn2file0
-- 🏅 Scrum Foundation Professional Certificate (SFPC) fileciteturn2file0
-- 🏅 HTML & CSS Fundamentals fileciteturn2file0
-- 🏅 React.js Basics fileciteturn2file0
-- 🏅 Project Management Essentials fileciteturn2file0
-- 🏅 SQL for Data Science fileciteturn2file0
+- 🏅 Android Application Development 
+- 🏅 Jira Fundamentals 
+- 🏅 Docker Training Course 
+- 🏅 Node.js 
+- 🏅 Git & GitHub 
+- 🏅 Scrum Foundation Professional Certificate (SFPC) 
+- 🏅 HTML & CSS Fundamentals 
+- 🏅 React.js Basics 
+- 🏅 Project Management Essentials 
+- 🏅 SQL for Data Science 
 
 ---
 
