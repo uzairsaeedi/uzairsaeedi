@@ -19,20 +19,59 @@ jobs:
       - name: Generate Stats SVGs
         run: |
           mkdir -p generated
-          curl -o generated/stats.svg "https://github-readme-stats.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true"
-          curl -o generated/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=uzairsaeedi&layout=compact&theme=dark&hide_border=true"
+
+          # Try primary GitHub Stats API
+          echo "Fetching GitHub stats..."
+          curl -f -o generated/stats.svg "https://github-readme-stats.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true&cache_seconds=1800" || \
+          curl -f -o generated/stats.svg "https://github-readme-stats-sigma-five.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" || \
+          echo "Failed to fetch stats, creating placeholder"
+
+          # Try primary Top Languages API
+          echo "Fetching top languages..."
+          curl -f -o generated/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=uzairsaeedi&layout=compact&theme=dark&hide_border=true&cache_seconds=1800" || \
+          curl -f -o generated/top-langs.svg "https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=uzairsaeedi&layout=compact&theme=dark&hide_border=true" || \
+          echo "Failed to fetch top languages, creating placeholder"
 
       - name: Generate Streak Stats
         run: |
-          curl -o generated/streak.svg "https://streak-stats.demolab.com/?user=uzairsaeedi&theme=dark&hide_border=true&count_private=true"
+          echo "Fetching streak stats..."
+          curl -f -o generated/streak.svg "https://streak-stats.demolab.com/?user=uzairsaeedi&theme=dark&hide_border=true&count_private=true" || \
+          curl -f -o generated/streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=uzairsaeedi&theme=dark&hide_border=true" || \
+          echo "Failed to fetch streak stats, creating placeholder"
+
+      - name: Verify generated files
+        run: |
+          echo "Verifying generated SVG files..."
+          for file in generated/*.svg; do
+            if [ -f "$file" ]; then
+              if grep -q "<svg" "$file"; then
+                echo "✓ $file is a valid SVG"
+              else
+                echo "✗ $file is not a valid SVG, removing..."
+                rm "$file"
+              fi
+            fi
+          done
+          ls -la generated/
 
       - name: Commit and push generated files
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add generated/
-          git commit -m "Update GitHub Stats" || echo "No changes to commit"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-          git push origin HEAD:main
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Check if we have any valid SVG files
+          if [ "$(find generated/ -name "*.svg" | wc -l)" -gt 0 ]; then
+            echo "Found valid SVG files, committing..."
+            git add generated/
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "Update GitHub Stats - $(date '+%Y-%m-%d %H:%M:%S')"
+              git push origin HEAD:main
+              echo "Successfully updated GitHub stats!"
+            fi
+          else
+            echo "No valid SVG files found, skipping commit"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
