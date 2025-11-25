@@ -14,11 +14,40 @@
 
 ## ⚙️ GitHub Stats
 
+## ⚙️ GitHub Stats
+
 <p align="center">
-  <img src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats"/>
-  &nbsp;
-  <img src="https://streak-stats.demolab.com/?user=uzairsaeedi&theme=dark&hide_border=true&count_private=true" alt="GitHub Streak" />
+  <!-- GitHub Stats -->
+  <img src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" height="165" />
+
+  <!-- Streak Stats -->
+  <img src="https://streak-stats.demolab.com/?user=uzairsaeedi&theme=dark&hide_border=true&count_private=true" height="165" />
 </p>
+
+---
+
+## 📊 Top Languages
+
+<p align="center">
+  <img src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs/?username=uzairsaeedi&layout=compact&theme=dark&hide_border=true" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=uzairsaeedi&theme=onedark&no-frame=true&no-bg=true&margin-w=4" />
+</p>
+
+---
+
+## 📈 Contribution Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=uzairsaeedi&theme=react-dark&hide_border=true&area=true" />
+</p>
+
 
 
 ---
