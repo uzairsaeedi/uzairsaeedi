@@ -16,10 +16,10 @@
 
 <p align="center">
   <!-- GitHub Stats -->
-  <img src="https://vercel-deployment-for-git-stats.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" height="165" />
+  <img src="./generated/stats.svg" alt="GitHub Stats" height="165" />
 
   <!-- Streak Stats -->
-  <img src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" height="165" />
+  <img src="./generated/streak.svg" alt="GitHub Streak" height="165" />
 </p>
 
 ---
@@ -27,7 +27,7 @@
 ## 📊 Top Languages
 
 <p align="center">
-  <img src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs/?username=uzairsaeedi&layout=compact&theme=dark&hide_border=true" />
+  <img src="./generated/top-langs.svg" alt="Top Languages" />
 </p>
 
 ---
