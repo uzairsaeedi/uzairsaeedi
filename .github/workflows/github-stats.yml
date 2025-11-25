@@ -2,47 +2,40 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # runs every 12 hours
-  workflow_dispatch:       # allow manual run
+    - cron: "0 */24 * * *" # every 24 hours
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate GitHub Readme Stats
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: uzairsaeedi
-          include_all_commits: true
-          hide_border: true
-          theme: dark
-          output: generated/stats.svg
+      # ----------------------------------------------------
+      # 1. Generate GitHub READme Stats + Top Languages
+      # ----------------------------------------------------
+      - name: Generate Stats SVGs
+        run: |
+          mkdir -p generated
+          curl -o generated/stats.svg "https://github-readme-stats.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true"
+          curl -o generated/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=uzairsaeedi&layout=compact&theme=dark&hide_border=true"
 
-      - name: Generate Top Languages
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: uzairsaeedi
-          layout: compact
-          theme: dark
-          hide_border: true
-          output: generated/top-langs.svg
+      # ----------------------------------------------------
+      # 2. Generate Streak Stats (from official API)
+      # ----------------------------------------------------
+      - name: Generate Streak Stats
+        run: |
+          curl -o generated/streak.svg "https://streak-stats.demolab.com/?user=uzairsaeedi&theme=dark&hide_border=true&count_private=true"
 
-      - name: Generate GitHub Streak Stats
-        uses: DenverCoder1/github-streak-stats@main
-        with:
-          user: uzairsaeedi
-          locale: en
-          theme: dark
-          hide_border: true
-          output: generated/streak.svg
-
-      - name: Commit generated files
+      # ----------------------------------------------------
+      # 3. Commit updated images
+      # ----------------------------------------------------
+      - name: Commit files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add generated/
-          git commit -m "Updated GitHub Stats" || echo "No changes to commit"
+          git commit -m "Update GitHub Stats" || echo "No changes"
           git push
