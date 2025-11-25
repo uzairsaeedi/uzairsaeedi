@@ -2,7 +2,7 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: "0 */24 * * *" # every 24 hours
+    - cron: "0 */24 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,32 +13,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # ----------------------------------------------------
-      # 1. Generate GitHub READme Stats + Top Languages
-      # ----------------------------------------------------
       - name: Generate Stats SVGs
         run: |
           mkdir -p generated
           curl -o generated/stats.svg "https://github-readme-stats.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true"
           curl -o generated/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=uzairsaeedi&layout=compact&theme=dark&hide_border=true"
 
-      # ----------------------------------------------------
-      # 2. Generate Streak Stats (from official API)
-      # ----------------------------------------------------
       - name: Generate Streak Stats
         run: |
           curl -o generated/streak.svg "https://streak-stats.demolab.com/?user=uzairsaeedi&theme=dark&hide_border=true&count_private=true"
 
-      # ----------------------------------------------------
-      # 3. Commit updated images
-      # ----------------------------------------------------
       - name: Commit and push generated files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add generated/
           git commit -m "Update GitHub Stats" || echo "No changes to commit"
-          git push
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          git push origin HEAD:main
         env:
-          # Use the automatically provided GITHUB_TOKEN
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
