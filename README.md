@@ -14,8 +14,6 @@
 
 ## ⚙️ GitHub Stats
 
-## ⚙️ GitHub Stats
-
 <p align="center">
   <!-- GitHub Stats -->
   <img src="https://vercel-deployment-for-git-stats.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" height="165" />
