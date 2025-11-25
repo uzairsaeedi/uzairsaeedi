@@ -21,7 +21,7 @@
   <img src="https://vercel-deployment-for-git-stats.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" height="165" />
 
   <!-- Streak Stats -->
-  <img src="https://streak-stats.demolab.com/?user=uzairsaeedi&theme=dark&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" height="165" />
 </p>
 
 ---
