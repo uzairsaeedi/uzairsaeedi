@@ -15,9 +15,10 @@
 ## ⚙️ GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=uzairsaeedi&show_icons=true&theme=dark&hide_border=true" />
   &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=uzairsaeedi&theme=dark&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=uzairsaeedi&theme=dark&hide_border=true" />
+
 </p>
 
 ---
