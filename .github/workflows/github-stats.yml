@@ -1,0 +1,48 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # runs every 12 hours
+  workflow_dispatch:       # allow manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate GitHub Readme Stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: uzairsaeedi
+          include_all_commits: true
+          hide_border: true
+          theme: dark
+          output: generated/stats.svg
+
+      - name: Generate Top Languages
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: uzairsaeedi
+          layout: compact
+          theme: dark
+          hide_border: true
+          output: generated/top-langs.svg
+
+      - name: Generate GitHub Streak Stats
+        uses: DenverCoder1/github-streak-stats@main
+        with:
+          user: uzairsaeedi
+          locale: en
+          theme: dark
+          hide_border: true
+          output: generated/streak.svg
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add generated/
+          git commit -m "Updated GitHub Stats" || echo "No changes to commit"
+          git push
